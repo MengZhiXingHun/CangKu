@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edPswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即注册"
+        android:textColor="#E51C23"
+        android:textSize="12sp"
+        android:padding="10dp"
+        android:layout_marginLeft="340dp"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E51C23"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
